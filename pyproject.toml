@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hexlet"
+version = "0.1.0"
+description = ""
+authors = ["Serg"]
+
+[tool.poetry.dependencies]
+python = "3.8.5"
+prompt = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+wemake-python-styleguide = "^0.15.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
